@@ -1,0 +1,1 @@
+define(["BaseWidgetView","text!templates/contacts-template.html"],function(e,t){var n=e.extend({tagName:"div",elemHTML:t,initialize:function(){this.baseInitialize()},render:function(){return this.$el.attr("contenteditable",!0),this.$el.html(this.elemHTML),this.$el.append(this.editView.render().el),this}});return n});

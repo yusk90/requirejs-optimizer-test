@@ -1,0 +1,1 @@
+define(["BaseWidgetView"],function(e){var t=e.extend({tagName:"h1",placeHolder:"Відредагуй заголовок просто натиснувши на текст правою кнопкою миші",initialize:function(){this.baseInitialize()},render:function(){return this.$el.attr("contenteditable",!0),this.$el.html(this.placeHolder),this.$el.append(this.editView.render().el),this}});return t});

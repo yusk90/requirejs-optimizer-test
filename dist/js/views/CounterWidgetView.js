@@ -1,0 +1,1 @@
+define(["BaseWidgetView","text!templates/counter-template.html"],function(e,t){var n=e.extend({tagName:"div",className:"update",template:t,initialize:function(){this.baseInitialize()},render:function(){return this.$el.html(this.template),this.$el.append(this.editView.render().el),this}});return n});

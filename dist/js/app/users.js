@@ -1,0 +1,1 @@
+define(["UsersCollection"],function(e){return new e});

@@ -1,0 +1,1 @@
+define(["BaseWidgetView"],function(e){var t=e.extend({tagName:"nav",className:"menu",initialize:function(){}});return t});

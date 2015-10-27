@@ -1,0 +1,1 @@
+define(["jquery","SigninView","helpers"],function(e,t){e(function(){new t})});

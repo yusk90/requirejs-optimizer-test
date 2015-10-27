@@ -1,0 +1,1 @@
+define(["backbone"],function(e){var t=e.View.extend({clearErrors:function(){this.$(".sidebar__error").remove()},showErrors:function(e,t){_.each(t,function(e,t){this.$("#"+_.hyphen(t)).before('<div class="sidebar__error">'+e+"</div>")},this)}});return t});

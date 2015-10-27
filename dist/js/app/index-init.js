@@ -1,0 +1,1 @@
+define(["jquery","RegistrationView","helpers"],function(e,t){e(function(){new t})});

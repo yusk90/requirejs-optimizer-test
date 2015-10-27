@@ -1,0 +1,1 @@
+define(["BaseWidgetView","text!templates/social-like-template.html"],function(e,t){var n=e.extend({tagName:"div",elemHTML:t,initialize:function(){this.baseInitialize()},render:function(){return this.$el.html(this.elemHTML),this.$el.append(this.editView.render().el),this}});return n});

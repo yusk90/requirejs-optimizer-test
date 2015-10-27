@@ -1,0 +1,1 @@
+define(["backbone","UserModel","localstorage"],function(e,t){var n=e.Collection.extend({model:t,localStorage:new e.LocalStorage("Users"),initialize:function(){this.fetch({reset:!0})}});return n});
